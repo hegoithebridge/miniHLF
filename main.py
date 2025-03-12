@@ -8,8 +8,8 @@ from clases import *
 
 vidas_computer = 8
 presentacion()
-tablero_computer             = crear_tablero(10)
-tablero_computer_visualizar  = crear_tablero(10)
+tablero_computer             = crear_tablero(TAMANO_TABLERO)
+tablero_computer_visualizar  = crear_tablero(TAMANO_TABLERO)
 posicionar_barcos_fijos(tablero_computer)
 # Sólo para pruebas
 visualizar_tablero(tablero_computer)
